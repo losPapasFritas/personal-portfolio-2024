@@ -7,6 +7,43 @@ font-style: normal; */
 font-weight: 400;
 font-style: normal; */
 @import url("https://use.typekit.net/orf4uco.css");
+
 /* font-family: "lust", serif;
 font-weight: 700;
 font-style: normal; */
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "lust", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.banner-left {
+    max-width: 49vw;
+}
+
+.banner-right {
+    max-width: 49vw;
+}
+
+.banner {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 98vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banenr {
+    justify-content: center;
+}
+
+.banner-for-projects {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
