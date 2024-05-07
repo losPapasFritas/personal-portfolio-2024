@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="style.css">
+    
     <title>-- Corbin Rangel -- Projects --</title>
 </head>
 <body>
     <header>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
         <a href="writing.html">Writing</a>
         <a href="contact.html">Contact</a>
         <a href="resume.html">Resume</a>
@@ -24,23 +26,27 @@
             </section>
             <section class="banner-right carousel">
                 <section class="slides">
-                    <div id="gen-slide-1">
+                    <div class="gen-slides fade">
                         <img src="images/jp1.png" alt="The first of four images of an overview of the websites created by Corbin Rangel. The website in the image is themed around Jurassic Park.">
                     </div>
-                    <div id="gen-slide-2">
+                    <div class="gen-slides fade">
                         <img src="images/budget1.png" alt="The second of four images of an overview of the websites created by Corbin Rangel. The website in the image is a budget calculator developed by Corbin Rangel.">
                     </div>
-                    <div id="gen-slide-3">
+                    <div class="gen-slides fade">
                         <img src="images/text1.png" alt="The third of four images of an overview of the websites created by Corbin Rangel. The website in the image is a text adventure developed by Corbin Rangel.">
                     </div>
-                    <div id="gen-slide-4">
+                    <div class="gen-slides fade">
                         <img src="images/jp3.png" alt="The last of four images of an overview of the websites created by Corbin Rangel. The website in the image is the website you are currently browsing.">
                     </div>
+                    <a class="prev" onclick="plusSlides(-1,'gen')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1,'gen')">&#10095;</a>
                 </section>
-                <section class="slideshow-nav">
-                    <a class="prev" onclick="plusGenSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusGenSlides(1)">&#10095;</a>
-                </section>
+                <div style="text-align:center">
+                    <span class="gen-dot" onclick="currentSlide(1,'gen')"></span>
+                    <span class="gen-dot" onclick="currentSlide(2,'gen')"></span>
+                    <span class="gen-dot" onclick="currentSlide(3,'gen')"></span>
+                    <span class="gen-dot" onclick="currentSlide(4,'gen')"></span>
+                  </div>
             </section>
         </section>
         <section class="banner-for-projects">
@@ -51,20 +57,23 @@
                 </section>
                 <section class="banner-right carousel">
                     <section class="slides">
-                        <div id="jp-slide-1">
+                        <div class="jp-slides fade">
                             <img src="images/jp1.png" alt="The first of three images of the Jurassic Park ticketing site created by Corbin Rangel">
                         </div>
-                        <div id="jp-slide-2">
+                        <div class="jp-slides fade">
                             <img src="images/jp2.png" alt="The second of three images of the Jurassic Park ticketing site created by Corbin Rangel">
                         </div>
-                        <div id="jp-slide-3">
+                        <div class="jp-slides fade">
                             <img src="images/jp3.png" alt="The third of three images of the Jurassic Park ticketing site created by Corbin Rangel">
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,'jp')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,'jp')">&#10095;</a>
                     </section>
-                    <section class="slideshow-nav">
-                        <a class="prev" onclick="plusJPSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusJPSlides(1)">&#10095;</a>
-                    </section>
+                    <div style="text-align:center">
+                        <span class="jp-dot" onclick="currentSlide(1,'jp')"></span>
+                        <span class="jp-dot" onclick="currentSlide(2,'jp')"></span>
+                        <span class="jp-dot" onclick="currentSlide(3,'jp')"></span>
+                    </div>
                 </section>
             </section>
             <a href="https://tiny-pasca-d5e105.netlify.app/admissions-and-tickets/home">Link to the project</a>
@@ -77,20 +86,23 @@
                 </section>
                 <section class="banner-right carousel">
                     <section class="slides">
-                        <div id="calc-slide-1">
+                        <div class="calc-slides fade">
                             <img src="images/budget1.png" alt="The first of three images of the Budget Calculator website created by Corbin Rangel">
                         </div>
-                        <div id="calc-slide-2">
+                        <div class="calc-slides fade">
                             <img src="images/budget2.png" alt="The second of three images of the Budget Calculator website site created by Corbin Rangel">
                         </div>
-                        <div id="calc-slide-3">
+                        <div class="calc-slides fade">
                             <img src="images/budget3.png" alt="The third of three images of the Budget Calculator website site created by Corbin Rangel">
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,'calc')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,'calc')">&#10095;</a>
                     </section>
-                    <section class="slideshow-nav">
-                        <a class="prev" onclick="plusCalcSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusCalcSlides(1)">&#10095;</a>
-                    </section>
+                    <div style="text-align:center">
+                        <span class="calc-dot" onclick="currentSlide(1,'calc')"></span>
+                        <span class="calc-dot" onclick="currentSlide(2,'calc')"></span>
+                        <span class="calc-dot" onclick="currentSlide(3,'calc')"></span>
+                    </div>
                 </section>
             </section>
             <a href="https://budg3tcalul80r.netlify.app">Link to the project</a>
@@ -103,20 +115,23 @@
                 </section>
                 <section class="banner-right carousel">
                     <section class="slides">
-                        <div id="text-slide-1">
+                        <div class="text-slides fade">
                             <img src="images/text1.png" alt="The first of three images of the Text Adventure website created by Corbin Rangel">
                         </div>
-                        <div id="text-slide-2">
+                        <div class="text-slides fade">
                             <img src="images/text2.png" alt="The second of three images of the Text Adventure website site created by Corbin Rangel">
                         </div>
-                        <div id="text-slide-3">
+                        <div class="text-slides fade">
                             <img src="images/text3.png" alt="The third of three images of the Text Adventure website site created by Corbin Rangel">
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,'text')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,'text')">&#10095;</a>
                     </section>
-                    <section class="slideshow-nav">
-                        <a class="prev" onclick="plusTextSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusTextSlides(1)">&#10095;</a>
-                    </section>
+                    <div style="text-align:center">
+                        <span class="text-dot" onclick="currentSlide(1,'text')"></span>
+                        <span class="text-dot" onclick="currentSlide(2,'text')"></span>
+                        <span class="text-dot" onclick="currentSlide(3,'text')"></span>
+                    </div>
                 </section>
             </section>
             <a href="https://souls-adventure.netlify.app">Link to the project</a>
@@ -131,20 +146,23 @@
                     Img Carousel for individual project
                     <section class="banner-right carousel">
                         <section class="slides">
-                            <div id="portfolio-slide-3">
+                            <div class="portfolio-slides fade">
                                 <img src="" alt="">
                             </div>
-                            <div id="portfolio-slide-3">
+                            <div class="portfolio-slides fade">
                                 <img src="" alt="">
                             </div>
-                            <div id="portfolio-slide-3">
+                            <div class="portfolio-slides fade">
                                 <img src="" alt="">
                             </div>
+                            <a class="prev" onclick="plusSlides(-1,'portfolio')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'portfolio')">&#10095;</a>
                         </section>
-                        <section class="slideshow-nav">
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        </section>
+                        <div style="text-align:center">
+                            <span class="portfolio-dot" onclick="currentSlide(1,'portfolio')"></span>
+                            <span class="portfolio-dot" onclick="currentSlide(2,'portfolio')"></span>
+                            <span class="portfolio-dot" onclick="currentSlide(3,'portfolio')"></span>
+                        </div>
                     </section>
                 </section>
             </section>
@@ -152,4 +170,5 @@
         </section>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
