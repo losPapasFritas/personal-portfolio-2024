@@ -21,6 +21,10 @@ body{
 header{
     padding-bottom: 10px;
     border-bottom: black solid 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 0px;
 }
 
 main {
@@ -46,8 +50,10 @@ h1 {
 a{
     border: 1px solid black;
     padding: 10px;
+    font-size: larger;
     background-color: #465355;
     color: #29DFFF;
+    display: block;
     /* border-radius: 15%; */
 }
 
@@ -63,9 +69,8 @@ p {
     font-style: normal;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
+.links>a{
+  padding: 20px;
 }
 
 .banner-left,
