@@ -365,6 +365,10 @@ li>a {
   .dropdown-content{
     left: 1000;
   }
+  .banner{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .smallScreenNone{
     display: none;
   }
