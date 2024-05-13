@@ -21,10 +21,10 @@ font-style: normal; */
 body {
   background-color: #29DFFF;
 }
-.smallScreenNone{
+.dropdown-content .smallScreenNone{
   display: inline;
 }
-.smallScreenSome{
+.dropdown-content .smallScreenSome{
   display: none;
 }
 header {
@@ -368,7 +368,7 @@ li>a {
   .smallScreenNone{
     display: none;
   }
-  .smallScreenSome{
-    display: inline;
+  .dropdown-content .smallScreenSome{
+    display: block;
   }
 }
