@@ -41,9 +41,20 @@
             </section>
             <section class="banner-right">
                 <p>Thanks for viewing my website!<br><br>I am open to opportunities reguarding web development.</p>
-                <ul>
-                    <li>Gmail : <a href="mailto:cornburg9@gmail.com" target="_blank">cornburg9@gmail.com</a></li>
-                </ul>
+                <form class="form-main" name="contact" method="POST" data-netlify="true">
+                    <section class="form">
+                      <label>Your Name:</label> <input type="text" name="name" />
+                    </section>
+                    <section class="form">
+                      <label>Your Email:</label> <input type="email" name="email" />
+                    </section>
+                    <section class="form">
+                      <label>Your Message:</label> <textarea name="message"></textarea>
+                    </section>
+                    <section class="form">
+                      <button type="submit">Send</button>
+                    </section>
+                  </form>
             </section>
         </section>
     </main>

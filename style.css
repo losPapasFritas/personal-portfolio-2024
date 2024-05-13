@@ -94,6 +94,7 @@ p {
 
 .banner-right {
   margin-left: 10px;
+  min-height: 15vh;
 }
 
 .banner {
@@ -119,6 +120,21 @@ p {
   background-color: #45BFD5;
 }
 
+.form-main{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+input, textarea{
+  width: 50%;
+}
+.form{
+  min-height: 5vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
 .banner>a:nth-child(2),
 li>a {
   border-radius: 0;
@@ -362,8 +378,14 @@ li>a {
 }
 @media(max-width:500px){
   /* Header stuff */
-  .dropdown-content{
-    left: 1000;
+  .form-main{
+    min-height: 10vh;
+  }
+  .form{
+    flex-flow: column;
+  }
+  input, textarea{
+    width: 100%;
   }
   .banner{
     margin-left: 5px;
