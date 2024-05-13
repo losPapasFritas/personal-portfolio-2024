@@ -125,7 +125,7 @@ p {
   flex-flow: column nowrap;
   justify-content: space-around;
 }
-input, textarea{
+label{
   width: 50%;
 }
 .form{
@@ -384,7 +384,7 @@ li>a {
   .form{
     flex-flow: column;
   }
-  input, textarea{
+  label{
     width: 100%;
   }
   .banner{
