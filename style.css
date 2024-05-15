@@ -299,12 +299,13 @@ li>a {
   align-items: flex-start;
 }
 #bannerAnim>div{
-  font-size: larger;
-  width: 2vw;
+  font-size: 35px;
+  width: 2.2vw;
   animation-name: up;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   position: relative;
+  text-align: center;
 }
 #anim1{
   animation-delay: 0.333s;
@@ -351,6 +352,13 @@ li>a {
 #anim15{
   animation-delay: 5.333s;
 }
+
+@media(max-width:1360px){
+  #bannerAnim>div{
+    font-size: 25px;
+    width: 2.2vw;
+  }
+}
 @media (max-width:1174px){
   .writing{
     flex-flow: column;
@@ -360,15 +368,18 @@ li>a {
  .banner{
   flex-flow: column;
  }
+ .banner-left, .banner-right{
+  max-width: 88vw;
+  margin : 0;
+ }
 }
 @media (max-width:850px){
   h1, h1>strong{
     font-size: 70px;
   }
-}
-@media (max-width:850px){
-  h1, h1>strong{
-    font-size: 50px;
+  #bannerAnim>div{
+    font-size: 35px;
+    width: 20vw;
   }
 }
 @media(max-width:600px){
@@ -378,6 +389,13 @@ li>a {
 }
 @media(max-width:500px){
   /* Header stuff */
+  #dropdown>a{
+    font-size: 20px;
+  }
+  #bannerAnim>div{
+    font-size: 30px;
+    width: 20vw;
+  }
   .form-main{
     min-height: 10vh;
   }
